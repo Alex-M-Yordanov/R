@@ -13,7 +13,7 @@ mu<-60
 #h0: mu=60
 #h1: mu!=60
 
-#z-test sredno
+#z-test for average
 
 obs<-(mid-mu)/(sigma/sqrt(n))
 obs
