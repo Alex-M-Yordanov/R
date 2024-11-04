@@ -1,0 +1,5 @@
+
+
+
+rs <- replicate( 10000, sim(n=1000, mu1=5, mu2=5.2, sigma1=1, sigma2=1) )
+sum(rs<=0.05)/length(rs)
